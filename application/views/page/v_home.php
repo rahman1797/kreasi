@@ -1,26 +1,26 @@
  <style type="text/css">
    .slides {
-    max-height: 100vh;
+    max-height: 100%;
    }
  </style>
 
  <!-- Start Slider Area -->
   <div id="home" class="slider-area">
     <div class="bend niceties preview-2">
-      <div id="ensign-nivoslider" class="slides">
-        <img src="<?php echo base_url('assets/img/slideshow/Bandung Jawabarat 2017.JPG') ?>" alt="" title="#slider-direction-1" />
-        <img src="<?php echo base_url('assets/img/slideshow/Bangkok, 2018.JPG') ?>" alt="" title="#slider-direction-2" />
-        <img src="<?php echo base_url('assets/img/slideshow/Batucave malaysia 2012.jpg') ?>" alt="" title="#slider-direction-3" />
-        <img src="<?php echo base_url('assets/img/slideshow/bromo,2018.JPG') ?>" alt="" title="#slider-direction-4" />
-        <img src="<?php echo base_url('assets/img/slideshow/Bundaran HI Jakarta 2017.JPG') ?>" alt="" title="#slider-direction-5" />
-        <img src="<?php echo base_url('assets/img/slideshow/Citarik, Sukabumi 2017.JPG') ?>" alt="" title="#slider-direction-6" />
-        <img src="<?php echo base_url('assets/img/slideshow/Cobanrondo Jawatimur 2017.JPG') ?>" alt="" title="#slider-direction-7" />
-        <img src="<?php echo base_url('assets/img/slideshow/Dufan, Ancol Jakarta 2011.JPG') ?>" alt="" title="#slider-direction-8" />
-        <img src="<?php echo base_url('assets/img/slideshow/framehouse bandung 2017.jpg') ?>" alt="" title="#slider-direction-9" />
-        <img src="<?php echo base_url('assets/img/slideshow/lombok kutamandalika 2018.JPG') ?>" alt="" title="#slider-direction-10" />
-        <img src="<?php echo base_url('assets/img/slideshow/lovina,bali 2018.JPG') ?>" alt="" title="#slider-direction-11" />
-        <img src="<?php echo base_url('assets/img/slideshow/Merapi, Jogjakarta 2018.JPG') ?>" alt="" title="#slider-direction-12" />
-        <img src="<?php echo base_url('assets/img/slideshow/Umbul pongok 2018 Jawatengah Solo.JPG') ?>" alt="" title="#slider-direction-13" />
+      <div id="ensign-nivoslider" class="slides" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px">
+        <img src="<?php echo base_url('assets/img/slideshow/Bandung Jawabarat 2017.JPG') ?>" title="#slider-direction-1" />
+        <img src="<?php echo base_url('assets/img/slideshow/Bangkok, 2018.JPG') ?>" title="#slider-direction-2" />
+        <img src="<?php echo base_url('assets/img/slideshow/Batucave malaysia 2012.jpg') ?>" title="#slider-direction-3" />
+        <img src="<?php echo base_url('assets/img/slideshow/bromo,2018.JPG') ?>" title="#slider-direction-4" />
+        <img src="<?php echo base_url('assets/img/slideshow/Bundaran HI Jakarta 2017.JPG') ?>" title="#slider-direction-5" />
+        <img src="<?php echo base_url('assets/img/slideshow/Citarik, Sukabumi 2017.JPG') ?>" title="#slider-direction-6" />
+        <img src="<?php echo base_url('assets/img/slideshow/Cobanrondo Jawatimur 2017.JPG') ?>" title="#slider-direction-7" />
+        <img src="<?php echo base_url('assets/img/slideshow/Dufan, Ancol Jakarta 2011.JPG') ?>" title="#slider-direction-8" />
+        <img src="<?php echo base_url('assets/img/slideshow/framehouse bandung 2017.jpg') ?>" title="#slider-direction-9" />
+        <img src="<?php echo base_url('assets/img/slideshow/lombok kutamandalika 2018.JPG') ?>" title="#slider-direction-10" />
+        <img src="<?php echo base_url('assets/img/slideshow/lovina,bali 2018.JPG') ?>" title="#slider-direction-11" />
+        <img src="<?php echo base_url('assets/img/slideshow/Merapi, Jogjakarta 2018.JPG') ?>" title="#slider-direction-12" />
+        <img src="<?php echo base_url('assets/img/slideshow/Umbul pongok 2018 Jawatengah Solo.JPG') ?>" title="#slider-direction-13" />
       </div>
 
       <!-- direction 1 -->
@@ -30,7 +30,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">15 Desember 2017 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -55,7 +55,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">23 Juli 2017 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -80,7 +80,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">22 November 2019 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -105,7 +105,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">7 Desember 2018 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -130,7 +130,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">21 Mei 2017 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -155,7 +155,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">13 Oktober 2016 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -180,7 +180,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">22 April 2017 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -205,7 +205,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">8 Oktober 2011 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -230,7 +230,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">5 Maret 2018 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -255,7 +255,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">16 Juli 2018 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -280,7 +280,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">24 April 2018 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -305,7 +305,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">5 Juli 2018 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -330,7 +330,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="slider-content">
                 <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="layer-1-1 wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">1 Januari 2015 </h2>
                 </div>
                 <!-- layer 2 -->
@@ -355,7 +355,7 @@
   <!-- End Slider Area -->
 
   <!-- Start About area -->
-  <div id="about" class="about-area area-padding">
+  <div id="tentang" class="about-area area-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -369,9 +369,7 @@
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="well-left">
             <div class="single-well">
-              <a href="#">
-                  <img src="img/about/1.jpg" alt="">
-                </a>
+              <img style="border-radius: 30px" src="<?php echo base_url('assets/img/kailogo.PNG') ?>" alt="logo KAI">
             </div>
           </div>
         </div>
@@ -380,26 +378,26 @@
           <div class="well-middle">
             <div class="single-well">
               <a href="#">
-                <h4 class="sec-head">project Maintenance</h4>
+                <h4 class="sec-head">PT Kreasi Alam Inspirasi</h4>
               </a>
               <p>
-                Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure
+                Sebuah perusahaan profesional untuk jasa penyelenggaraan kegiatan yang penuh kreasi dan berinovasi terhadap pemenuhan kebutuhan para mitra kerjanya. Kami menyediakan beberapa divisi yaitu :
               </p>
               <ul>
                 <li>
-                  <i class="fa fa-check"></i> Interior design Package
+                  <i class="fa fa-check"></i> Divisi Meeting
                 </li>
                 <li>
-                  <i class="fa fa-check"></i> Building House
+                  <i class="fa fa-check"></i> Divisi Gathering
                 </li>
                 <li>
-                  <i class="fa fa-check"></i> Reparing of Residentail Roof
+                  <i class="fa fa-check"></i> Divisi Carnaval
                 </li>
                 <li>
-                  <i class="fa fa-check"></i> Renovaion of Commercial Office
+                  <i class="fa fa-check"></i> Divisi Launching
                 </li>
                 <li>
-                  <i class="fa fa-check"></i> Make Quality Products
+                  <i class="fa fa-check"></i> Divisi Outbound
                 </li>
               </ul>
             </div>
@@ -411,13 +409,111 @@
   </div>
   <!-- End About area -->
 
+    <!-- Start Divisi Area -->
+  <div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Divisi kami</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="team-top">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="<?php echo base_url('assets/img/meeting.JPG') ?>">
+                    <img src="<?php echo base_url('assets/img/meeting.JPG') ?>" style="height: 250px; width: 100%">
+                  </a>
+                <div class="team-social-icon text-center" style="color: white">
+                  Menyelenggarakan kegiatan acara rapat yang dibutuhkan client seperti rapat internal, FGD, seminar, konferensi sampai lokakarya berskala nasional dan internasional. Dalam kegiatan ini hasil pertemuan akan dilaporkan untuk bahan kemajuan client atau perusahaan.
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Divisi Meeting</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="<?php echo base_url('assets/img/gathering.JPG') ?>">
+                    <img src="<?php echo base_url('assets/img/gathering.JPG') ?>" style="height: 250px; width: 100%">
+                  </a>
+                <div class="team-social-icon text-center" style="color: white">
+                  Divisi yang bergerak untuk mengadakan kegiatan bersama sama yang dibutuhkan client atau perusahaan baik dalam kota, luar kota maupun luar negeri. Dimana kegiatan gathering ini harus memiliki muatan untuk kepentingan bersama dari kegiatan yang dilakukan indoor atau outdoor.
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Divisi Gathering</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="<?php echo base_url('assets/img/carnaval.JPG') ?>">
+                    <img src="<?php echo base_url('assets/img/carnaval.JPG') ?>" style="height: 250px; width: 100%">
+                  </a>
+                <div class="team-social-icon text-center" style="color: white">
+                  Divisi yang menyelenggarakan kegiatan pawai skala besar maupun kecil seperti funbike bersama, jalan santai atau touring kendaraan. Kegiatan ini dilakukan sesuai tema yang diharapkan client atau perusahaan.
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Divisi Carnaval</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-4 col-sm-4 col-xs-12" style="margin-top: 20px">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="<?php echo base_url('assets/img/launching.JPG') ?>">
+                    <img src="<?php echo base_url('assets/img/launching.JPG') ?>" style="height: 250px; width: 100%">
+                  </a>
+                <div class="team-social-icon text-center" style="color: white">
+                  Divisi yang bergerak dalam kegiatan promo atau pameran sebuah produk yang akan dipasarkan oleh client atau perusahaan.
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Divisi Launching</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-4 col-sm-4 col-xs-12" style="margin-top: 20px;">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="<?php echo base_url('assets/img/outbound.JPG') ?>">
+                    <img src="<?php echo base_url('assets/img/outbound.JPG') ?>" style="height: 250px; width: 100%">
+                  </a>
+                <div class="team-social-icon text-center" style="color: white">
+                  Training. Divisi ini bergerak di bidang pelatihan sumber daya manusia untuk mengembangkan kemampuan personal, manajerial, ataupun kepemimpinan melalui indoor ataupun outdoor.
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Divisi Outbound</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Divisi Area -->
+
   <!-- Start Service area -->
-  <div id="services" class="services-area area-padding">
+  <div id="pelayanan" class="services-area area-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline services-head text-center">
-            <h2>Our Services</h2>
+            <h2>Layanan Kami</h2>
           </div>
         </div>
       </div>
@@ -768,158 +864,8 @@
   </div>
   <!-- End Wellcome Area -->
 
-  <!-- Start team Area -->
-  <div id="team" class="our-team-area area-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
-            <h2>Our special Team</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="team-top">
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-                    <img src="img/team/1.jpg" alt="">
-                  </a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Jhon Mickel</h4>
-                <p>Seo</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-                    <img src="img/team/2.jpg" alt="">
-                  </a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Andrew Arnold</h4>
-                <p>Web Developer</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-                    <img src="img/team/3.jpg" alt="">
-                  </a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Lellien Linda</h4>
-                <p>Web Design</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-                    <img src="img/team/4.jpg" alt="">
-                  </a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Jhon Powel</h4>
-                <p>Seo Expert</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Team Area -->
-
   <!-- Start reviews Area -->
-  <div class="reviews-area hidden-xs">
+  <div class="reviews-area">
     <div class="work-us">
       <div class="work-left-text">
         <a href="#">
@@ -1075,70 +1021,7 @@
     </div>
   </div>
   <!-- awesome-portfolio end -->
-  <!-- start pricing area -->
-  <div id="pricing" class="pricing-area area-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
-            <h2>Pricing Table</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <div class="pri_table_list">
-            <h3>basic <br/> <span>$80 / month</span></h3>
-            <ol>
-              <li class="check">Online system</li>
-              <li class="check cross">Full access</li>
-              <li class="check">Free apps</li>
-              <li class="check">Multiple slider</li>
-              <li class="check cross">Free domin</li>
-              <li class="check cross">Support unlimited</li>
-              <li class="check">Payment online</li>
-              <li class="check cross">Cash back</li>
-            </ol>
-            <button>sign up now</button>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <div class="pri_table_list active">
-            <span class="saleon">top sale</span>
-            <h3>standard <br/> <span>$110 / month</span></h3>
-            <ol>
-              <li class="check">Online system</li>
-              <li class="check">Full access</li>
-              <li class="check">Free apps</li>
-              <li class="check">Multiple slider</li>
-              <li class="check cross">Free domin</li>
-              <li class="check">Support unlimited</li>
-              <li class="check">Payment online</li>
-              <li class="check cross">Cash back</li>
-            </ol>
-            <button>sign up now</button>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <div class="pri_table_list">
-            <h3>premium <br/> <span>$150 / month</span></h3>
-            <ol>
-              <li class="check">Online system</li>
-              <li class="check">Full access</li>
-              <li class="check">Free apps</li>
-              <li class="check">Multiple slider</li>
-              <li class="check">Free domin</li>
-              <li class="check">Support unlimited</li>
-              <li class="check">Payment online</li>
-              <li class="check">Cash back</li>
-            </ol>
-            <button>sign up now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End pricing table area -->
+  
   <!-- Start Testimonials -->
   <div class="testimonials-area">
     <div class="testi-inner area-padding">

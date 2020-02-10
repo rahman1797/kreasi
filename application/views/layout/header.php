@@ -74,12 +74,12 @@
               <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
                 <ul class="nav navbar-nav navbar-right">
                   <li class="active">
-                    <a class="page-scroll" href="#home">Home</a>
+                    <a class="page-scroll" href="#home">Beranda</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about">Tentang</a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a class="page-scroll" href="#services">Services</a>
                   </li>
                   <li>
@@ -87,9 +87,9 @@
                   </li>
                   <li>
                     <a class="page-scroll" href="#portfolio">Portfolio</a>
-                  </li>
+                  </li> -->
 
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Drop Down<span class="caret"></span></a>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumentasi<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href=# >Drop Down 1</a></li>
                       <li><a href=# >Drop Down 2</a></li>

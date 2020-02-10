@@ -837,6 +837,7 @@ div#preloader {
 
 .single-team-member {
   border: 1px solid #ddd;
+  border-radius: 15px;
 }
 
 .team-left-text h4 {
@@ -917,7 +918,7 @@ div#preloader {
 }
 
 .single-team-member:hover .team-social-icon {
-  top: 45%;
+  top: 15%;
   opacity: 1;
 }
 
@@ -942,7 +943,8 @@ div#preloader {
 }
 
 .team-social-icon {
-  left: 50%;
+  left: 20%;
+  width: 340px;
   margin-left: -61px;
   opacity: 0;
   position: absolute;
