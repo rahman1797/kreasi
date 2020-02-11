@@ -887,7 +887,7 @@
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
-            <h2>Our Portfolio</h2>
+            <h2>Portofolio Kegiatan</h2>
           </div>
         </div>
       </div>
@@ -901,13 +901,19 @@
                   <a href="#" class="active" data-filter="*">All</a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".development">Development</a>
+                  <a href="#" data-filter=".outbound">Outbound</a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".design">Design</a>
+                  <a href="#" data-filter=".meeting">Meeting</a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".photo">Photoshop</a>
+                  <a href="#" data-filter=".carnaval">Carnaval</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".launching">Launching</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".gathering">Gathering</a>
                 </li>
               </ul>
             </div>
@@ -915,15 +921,15 @@
         </div>
         <div class="awesome-project-content">
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 design development">
+          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/1.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_1.JPG') ?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/1.jpg">
-                      <h4>Business City</h4>
-                      <span>Web Development</span>
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_1.JPG') ?>">
+                      <h4>Badan POM</h4>
+                      <span>???</span>
                     </a>
                   </div>
                 </div>
@@ -932,15 +938,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/2.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_2.JPG') ?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/2.jpg">
-                      <h4>Blue Sea</h4>
-                      <span>Photosho</span>
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_2.JPG') ?>">
+                      <h4>BAPPEBTI</h4>
+                      <span>Lembang</span>
                     </a>
                   </div>
                 </div>
@@ -949,15 +955,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 design">
+          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/3.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_3.JPG') ?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/3.jpg">
-                      <h4>Beautiful Nature</h4>
-                      <span>Web Design</span>
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_3.JPG') ?>">
+                      <h4>BAPPEBTI</h4>
+                      <span>Rancamaya</span>
                     </a>
                   </div>
                 </div>
@@ -966,15 +972,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/4.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_4.JPG') ?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/4.jpg">
-                      <h4>Creative Team</h4>
-                      <span>Web design</span>
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_4.JPG') ?>">
+                      <h4>KPAN</h4>
+                      <span>Bandung</span>
                     </a>
                   </div>
                 </div>
@@ -983,15 +989,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 development">
+          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/5.jpg" alt="" /></a>
-                <div class="add-actions text-center text-center">
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_5.JPG') ?>" alt="" /></a>
+                <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/5.jpg">
-                      <h4>Beautiful Flower</h4>
-                      <span>Web Development</span>
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_5.JPG') ?>">
+                      <h4>BRI Veteran</h4>
+                      <span>Pahawang</span>
                     </a>
                   </div>
                 </div>
@@ -1000,15 +1006,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+          <div class="col-md-3 col-sm-3 col-xs-12 carnaval">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/6.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/carnaval/carnaval_1.JPG') ?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/6.jpg">
-                      <h4>Night Hill</h4>
-                      <span>Photoshop</span>
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/carnaval/carnaval_1.JPG') ?>">
+                      <h4>Fun Bike</h4>
+                      <span>Hotel Indonesia</span>
                     </a>
                   </div>
                 </div>
@@ -1016,6 +1022,127 @@
             </div>
           </div>
           <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-3 col-sm-3 col-xs-12 carnaval">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/carnaval/carnaval_2.JPG') ?>" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/carnaval/carnaval_2.JPG') ?>">
+                      <h4>PHRI Run</h4>
+                      <span>Hotel Indonesia</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-3 col-sm-3 col-xs-12 gathering">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/gathering/gathering_1.JPG') ?>" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/gathering/gathering_1.JPG') ?>">
+                      <h4>PT Sangalaki Manta Paradise</h4>
+                      <span>Kalimantan Timur</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-3 col-sm-3 col-xs-12 gathering">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/gathering/gathering_2.JPG') ?>" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/gathering/gathering_2.JPG') ?>">
+                      <h4>BAPPEBTI</h4>
+                      <span>Cipanas</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-3 col-sm-3 col-xs-12 launching">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/launching/launching_1.JPG') ?>" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/launching/launching_1.JPG') ?>">
+                      <h4>Badan POM</h4>
+                      <span>???</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-3 col-sm-3 col-xs-12 launching">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/launching/launching_2.JPG') ?>" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/launching/launching_2.JPG') ?>">
+                      <h4>DIC Graphic</h4>
+                      <span>Launching Pabrik Karawang</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-3 col-sm-3 col-xs-12 meeting">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/meeting/meeting_1.JPG') ?>" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/meeting/meeting_1.JPG') ?>">
+                      <h4>DIC Graphic</h4>
+                      <span>National Sales Marketing</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-3 col-sm-3 col-xs-12 meeting">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/meeting/meeting_2.JPG') ?>" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/meeting/meeting_2.JPG') ?>">
+                      <h4>Badan POM</h4>
+                      <span>Forum Evaluasi Penilaian Obat dan Produk Biologi</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+
+          
         </div>
       </div>
     </div>
@@ -1206,7 +1333,7 @@
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline text-center">
-              <h2>Contact us</h2>
+              <h2>Kontak Kami</h2>
             </div>
           </div>
         </div>
@@ -1217,8 +1344,8 @@
               <div class="single-icon">
                 <i class="fa fa-mobile"></i>
                 <p>
-                  Call: +1 5589 55488 55<br>
-                  <span>Monday-Friday (9am-5pm)</span>
+                  08161607863 (Deviana Ike P)<br>
+                  08157110051 (Dedi Suhendi)
                 </p>
               </div>
             </div>
@@ -1229,8 +1356,8 @@
               <div class="single-icon">
                 <i class="fa fa-envelope-o"></i>
                 <p>
-                  Email: info@example.com<br>
-                  <span>Web: www.example.com</span>
+                  eo.alaminspirasi@gmail.com<br>
+                  <span>www.KAI.com</span>
                 </p>
               </div>
             </div>
@@ -1241,8 +1368,8 @@
               <div class="single-icon">
                 <i class="fa fa-map-marker"></i>
                 <p>
-                  Location: A108 Adam Street<br>
-                  <span>NY 535022, USA</span>
+                  Jalan Dr. Saharjo No.149 Manggarai Selatan<br>
+                  <span>Jakarta Selatan</span>
                 </p>
               </div>
             </div>
@@ -1253,7 +1380,7 @@
           <!-- Start Google Map -->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <!-- Start Map -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3310381951437!2d106.84363931476915!3d-6.220004995497369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f38bc6feddff%3A0x377744f5340e805d!2sPT%20KREASI%20ALAM%20INSPIRASI!5e0!3m2!1sid!2sid!4v1580885140804!5m2!1sid!2sid"></iframe>
             <!-- End Map -->
           </div>
           <!-- End Google Map -->
@@ -1265,19 +1392,19 @@
               <div id="errormessage"></div>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nama" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subjek" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Beritahu kami apa yang anda butuhkan"></textarea>
                   <div class="validation"></div>
                 </div>
                 <div class="text-center"><button type="submit">Send Message</button></div>
