@@ -7,10 +7,8 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <h2><span>e</span>Business</h2>
+                  <h2>Kreasi Alam Inspirasi</h2>
                 </div>
-
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
                 <div class="footer-icons">
                   <ul>
                     <li>
@@ -34,10 +32,7 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="footer-content">
               <div class="footer-head">
-                <h4>information</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                </p>
+                <h4>informasi</h4>
                 <div class="footer-contacts">
                   <p><span>Tel:</span> +123 456 789</p>
                   <p><span>Email:</span> contact@example.com</p>
@@ -52,12 +47,12 @@
               <div class="footer-head">
                 <h4>Instagram</h4>
                 <div class="flicker-img">
-                  <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
+                 <!--  <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
                   <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
                   <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
                   <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
                   <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/6.jpg" alt=""></a>
+                  <a href="#"><img src="img/portfolio/6.jpg" alt=""></a> -->
                 </div>
               </div>
             </div>
@@ -97,7 +92,7 @@
   <script src="<?php echo base_url('assets/template/lib/isotope/isotope.pkgd.min.js') ?>"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="<?php echo base_url('assets/template/contactform/contactform.js') ?>"></script>
 
   <script src="<?php echo base_url('assets/template/js/main.js') ?>"></script>
 </body>
