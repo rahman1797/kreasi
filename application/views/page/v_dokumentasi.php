@@ -15,6 +15,8 @@
       </li>
     </ol>
 
+    AAAAAAAAAAAAAAAaa
+
     <div class="row">
       <?php foreach ($foto_dokumentasi as $fd) {
         $nama_file = $fd->dokumentasi_file;
