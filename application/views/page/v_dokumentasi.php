@@ -11,7 +11,7 @@
         <a href="<?php echo site_url('Home') ?>">Home</a>
       </li>
       <li class="breadcrumb-item">
-        <a href="<?php echo base_url('Dokumentasi?tahun='.$_GET['tahun']) ?>"><?= $_GET['tahun'] ?></a>
+        <a href="<?php echo base_url('Dokumentasi?tahun='.$_GET['tahun']).'&page=1' ?>"><?= $_GET['tahun'] ?></a>
       </li>
     </ol>
 
