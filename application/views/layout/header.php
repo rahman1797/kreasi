@@ -40,6 +40,8 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
+  <script src="<?php echo base_url('assets/template/lib/jquery/jquery.min.js') ?>"></script>
+  
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
@@ -79,25 +81,18 @@
                   <li>
                     <a class="page-scroll" href="#about">Tentang</a>
                   </li>
-                  <!-- <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#team">Team</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
-                  </li> -->
-
                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumentasi<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href=# >Drop Down 1</a></li>
-                      <li><a href=# >Drop Down 2</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2011&page=1') ?>" >2011</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2012') ?>" >2012</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2013') ?>" >2013</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2014') ?>" >2014</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2015') ?>" >2015</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2016') ?>" >2016</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2017') ?>" >2017</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2018&page=1') ?>" >2018</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2019') ?>" >2019</a></li>
                     </ul> 
-                  </li>
-
-                  <li>
-                    <a class="page-scroll" href="#blog">Blog</a>
                   </li>
                   <li>
                     <a class="page-scroll" href="#contact">Contact</a>

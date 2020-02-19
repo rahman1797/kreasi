@@ -42,21 +42,6 @@
             </div>
           </div>
           <!-- end single footer -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-content">
-              <div class="footer-head">
-                <h4>Instagram</h4>
-                <div class="flicker-img">
-                 <!--  <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/6.jpg" alt=""></a> -->
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -79,7 +64,7 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="<?php echo base_url('assets/template/lib/jquery/jquery.min.js') ?>"></script>
+ 
   <script src="<?php echo base_url('assets/template/lib/bootstrap/js/bootstrap.min.js') ?>"></script>
   <script src="<?php echo base_url('assets/template/lib/owlcarousel/owl.carousel.min.js') ?>"></script>
   <script src="<?php echo base_url('assets/template/lib/venobox/venobox.min.js') ?>"></script>
@@ -95,6 +80,7 @@
   <script src="<?php echo base_url('assets/template/contactform/contactform.js') ?>"></script>
 
   <script src="<?php echo base_url('assets/template/js/main.js') ?>"></script>
+
 </body>
 
 </html>

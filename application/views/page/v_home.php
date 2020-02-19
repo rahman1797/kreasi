@@ -1,13 +1,14 @@
  <style type="text/css">
    .slides {
     max-height: 100%;
+
    }
  </style>
 
  <!-- Start Slider Area -->
   <div id="home" class="slider-area">
     <div class="bend niceties preview-2">
-      <div id="ensign-nivoslider" class="slides" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px">
+      <div id="ensign-nivoslider" class="slides " style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px">
         <img src="<?php echo base_url('assets/img/slideshow/Bandung Jawabarat 2017.JPG') ?>" title="#slider-direction-1" />
         <img src="<?php echo base_url('assets/img/slideshow/Bangkok, 2018.JPG') ?>" title="#slider-direction-2" />
         <img src="<?php echo base_url('assets/img/slideshow/Batucave malaysia 2012.jpg') ?>" title="#slider-direction-3" />
