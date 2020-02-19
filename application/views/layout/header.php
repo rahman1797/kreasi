@@ -41,7 +41,7 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
   <script src="<?php echo base_url('assets/template/lib/jquery/jquery.min.js') ?>"></script>
-  
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
@@ -83,15 +83,15 @@
                   </li>
                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumentasi<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2011&page=1') ?>" >2011</a></li>
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2012') ?>" >2012</a></li>
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2013') ?>" >2013</a></li>
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2014') ?>" >2014</a></li>
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2015') ?>" >2015</a></li>
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2016') ?>" >2016</a></li>
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2017') ?>" >2017</a></li>
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2018&page=1') ?>" >2018</a></li>
-                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2019') ?>" >2019</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2011&page=1') ?>" style="padding: 5px">2011</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2012&page=1') ?>" style="padding: 5px">2012</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2013&page=1') ?>" style="padding: 5px">2013</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2014&page=1') ?>" style="padding: 5px">2014</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2015&page=1') ?>" style="padding: 5px">2015</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2016&page=1') ?>" style="padding: 5px">2016</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2017&page=1') ?>" style="padding: 5px">2017</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2018&page=1') ?>" style="padding: 5px">2018</a></li>
+                      <li><a href="<?php echo base_url('Dokumentasi?tahun=2019&page=1') ?>" style="padding: 5px">2019</a></li>
                     </ul> 
                   </li>
                   <li>
