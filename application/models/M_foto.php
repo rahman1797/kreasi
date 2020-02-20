@@ -15,9 +15,6 @@ class M_foto extends CI_Model
 		$query = $this->db->get();
 
 		return $query;
-
-		// return $this->db->get_where('dokumentasi_tbl', array(
-		// 	'dokumentasi_tahun' => $_GET['tahun']));	
 	}
 
 	function count_image() {   
@@ -31,13 +28,6 @@ class M_foto extends CI_Model
 	      return 0;
 	    }
 	}
-
-
-
-
-
-
-
 
 }
 

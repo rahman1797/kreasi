@@ -15,8 +15,6 @@
       </li>
     </ol>
 
-    AAAAAAAAAAAAAAAaa
-
     <div class="row">
       <?php foreach ($foto_dokumentasi as $fd) {
         $nama_file = $fd->dokumentasi_file;
@@ -27,11 +25,13 @@
        ?>
         <div class="col-lg-3 col-sm-3 col-md-3 portfolio-item">
           <div class="card h-100">
-            <?= $fd->dokumentasi_ID ?>
-            <a href="<?php echo base_url().'assets/img/'.$tahun.'/'.$nama_perusahaan.'-'.$tempat_kunjung.'/'.$nama_file ?>"><img class="card-img-top" src="<?php echo base_url().'assets/img/'.$tahun.'/'.$nama_perusahaan.'-'.$tempat_kunjung.'/'.$nama_file ?>" alt="<?= $nama_file ?>"  style="height: 300px"></a>
+            <!-- <?= $fd->dokumentasi_ID ?> -->
+            <center>
+                <a href="<?php echo base_url().'assets/img/'.$tahun.'/'.$nama_perusahaan.'-'.$tempat_kunjung.'/'.$nama_file ?>"><img class="card-img-top rounded_corner" src="<?php echo base_url().'assets/img/'.$tahun.'/'.$nama_perusahaan.'-'.$tempat_kunjung.'/'.$nama_file ?>" alt="<?= $nama_file ?>"  style="height: 200px"></a>
+            </center>
             <div class="card-body">
               <h4 class="card-title">
-                <?= $nama_perusahaan."-".$tempat_kunjung ?>
+                <center><?= $nama_perusahaan."-".$tempat_kunjung ?></center>
               </h4>
               <p class="card-text"></p>
             </div>
@@ -41,28 +41,28 @@
     </div>
     <!-- /.row -->
 
-    
+    <!-- PAGINATION -->
     <ul class="pagination">
+    
     <?php if($_GET['page'] != 1) { ?>
         <li><a href="<?php echo base_url('Dokumentasi?tahun='.$_GET['tahun'].'&page='.($_GET['page']-1)) ?>"><<</a></li>
-      <?php } ?>
+    <?php } ?>
       
-      <?php $page = ceil($count_image / 10);
+    <?php $page = ceil($count_image / 10);
 
-      for ($i = 1; $i < $page + 1; $i++) { ?>
-        <li id="<?php echo $i ?>" ><a href="<?php echo base_url('Dokumentasi?tahun='.$_GET['tahun'].'&page='.$i) ?>"><?= $i ?></a></li>
-      <?php } ?>
+    for ($i = 1; $i < $page + 1; $i++) { ?>
+      <li id="<?php echo $i ?>" ><a href="<?php echo base_url('Dokumentasi?tahun='.$_GET['tahun'].'&page='.$i) ?>"><?= $i ?></a></li>
+    <?php } ?>
 
-      <?php if($_GET['page'] != $page) { ?>
-        <li><a href="<?php echo base_url('Dokumentasi?tahun='.$_GET['tahun'].'&page='.($_GET['page']+1)) ?>">>></a></li>
-      <?php } ?>
+    <?php if($_GET['page'] != $page) { ?>
+      <li><a href="<?php echo base_url('Dokumentasi?tahun='.$_GET['tahun'].'&page='.($_GET['page']+1)) ?>">>></a></li>
+    <?php } ?>
 
     </ul>
 
     </div>
 
-
-   <script type="text/javascript">
-      var li_id = document.getElementById("<?php echo $_GET['page'] ?>");
-      li_id.classList.add("active");
-    </script>
+<script type="text/javascript">
+  var li_id = document.getElementById("<?php echo $_GET['page'] ?>");
+  li_id.classList.add("active");
+</script>
