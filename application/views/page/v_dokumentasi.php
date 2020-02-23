@@ -30,7 +30,7 @@
                 <a href="<?php echo base_url().'assets/img/'.$tahun.'/'.$nama_perusahaan.'-'.$tempat_kunjung.'/'.$nama_file ?>"><img class="card-img-top rounded_corner" src="<?php echo base_url().'assets/img/'.$tahun.'/'.$nama_perusahaan.'-'.$tempat_kunjung.'/'.$nama_file ?>" alt="<?= $nama_file ?>"  style="height: 200px"></a>
             </center>
             <div class="card-body">
-              <h4 class="card-title">
+              <h4 class="card-title" style="margin-top: 10px">
                 <center><?= $nama_perusahaan."-".$tempat_kunjung ?></center>
               </h4>
               <p class="card-text"></p>
