@@ -1,14 +1,39 @@
  <style type="text/css">
    .slides {
     max-height: 100%;
+   }
+   .text-shadow {
+    text-shadow: 0 0 10px #000;
+   }
+   .blury {
+    background-image: url('assets/img/meeting.JPG'); 
+    background-size: cover; 
+    filter: blur(3px); 
+    position: absolute; 
+    z-index: 0; 
+    height: 120vh; 
+    width: 100%;
+    overflow: hidden;
+   }
 
+   .back-img {
+    background-image: url('assets/img/outbound.JPG'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*background-blend-mode: screen;*/
+   }
+
+   .team-content {
+    background-color: #634c05;
+    color: white;
    }
  </style>
 
  <!-- Start Slider Area -->
   <div id="home" class="slider-area">
     <div class="bend niceties preview-2">
-      <div id="ensign-nivoslider" class="slides " style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px">
+      <div id="ensign-nivoslider" class="slides">
         <img src="<?php echo base_url('assets/img/slideshow/Bandung Jawabarat 2017.JPG') ?>" title="#slider-direction-1" />
         <img src="<?php echo base_url('assets/img/slideshow/Bangkok, 2018.JPG') ?>" title="#slider-direction-2" />
         <img src="<?php echo base_url('assets/img/slideshow/Batucave malaysia 2012.jpg') ?>" title="#slider-direction-3" />
@@ -356,12 +381,14 @@
   <!-- End Slider Area -->
 
   <!-- Start About area -->
-  <div id="tentang" class="about-area area-padding">
+<div style="overflow: hidden;">
+  
+  <div id="tentang" class="about-area area-padding" style="background-image: linear-gradient(to right, #65B963 , #236907);">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
-            <h2>Tentang Kreasi Alam Inspirasi</h2>
+            <h2 class="text-shadow" style="color: #f9b433">Tentang Kreasi Alam Inspirasi</h2>
           </div>
         </div>
       </div>
@@ -379,26 +406,26 @@
           <div class="well-middle">
             <div class="single-well">
               <a href="#">
-                <h4 class="sec-head">PT Kreasi Alam Inspirasi</h4>
+                <h4 class="sec-head text-shadow" style="color: white">PT Kreasi Alam Inspirasi</h4>
               </a>
-              <p>
+              <p class="text-shadow" style="color: white">
                 Sebuah perusahaan profesional untuk jasa penyelenggaraan kegiatan yang penuh kreasi dan berinovasi terhadap pemenuhan kebutuhan para mitra kerjanya. Kami menyediakan beberapa divisi yaitu :
               </p>
-              <ul>
-                <li>
-                  <i class="fa fa-check"></i> Divisi Meeting
+              <ul class="text-shadow">
+                <li style="color: #fff">
+                  <i class="fa fa-check" style="color: #f9b433"></i> Divisi Meeting
                 </li>
-                <li>
-                  <i class="fa fa-check"></i> Divisi Gathering
+                <li style="color: #fff">
+                  <i class="fa fa-check" style="color: #f9b433"></i> Divisi Gathering
                 </li>
-                <li>
-                  <i class="fa fa-check"></i> Divisi Carnaval
+                <li style="color: #fff">
+                  <i class="fa fa-check" style="color: #f9b433"></i> Divisi Carnaval
                 </li>
-                <li>
-                  <i class="fa fa-check"></i> Divisi Launching
+                <li style="color: #fff">
+                  <i class="fa fa-check" style="color: #f9b433"></i> Divisi Launching
                 </li>
-                <li>
-                  <i class="fa fa-check"></i> Divisi Outbound
+                <li style="color: #fff">
+                  <i class="fa fa-check" style="color: #f9b433"></i> Divisi Outbound
                 </li>
               </ul>
             </div>
@@ -408,15 +435,18 @@
       </div>
     </div>
   </div>
+
+</div>
   <!-- End About area -->
 
     <!-- Start Divisi Area -->
-  <div id="team" class="our-team-area area-padding">
+    <!-- <div class="blury"></div> -->
+  <div id="team" class="our-team-area area-padding back-img">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
-            <h2>Divisi kami</h2>
+            <h2 class="text-shadow" style="color: white">Divisi kami</h2>
           </div>
         </div>
       </div>
@@ -433,7 +463,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Divisi Meeting</h4>
+                <h4 class="text-shadow" style="color: white">Divisi Meeting</h4>
               </div>
             </div>
           </div>
@@ -449,7 +479,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Divisi Gathering</h4>
+                <h4 class="text-shadow" style="color: white">Divisi Gathering</h4>
               </div>
             </div>
           </div>
@@ -465,7 +495,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Divisi Carnaval</h4>
+                <h4 class="text-shadow" style="color: white">Divisi Carnaval</h4>
               </div>
             </div>
           </div>
@@ -481,7 +511,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Divisi Launching</h4>
+                <h4 class="text-shadow" style="color: white">Divisi Launching</h4>
               </div>
             </div>
           </div>
@@ -497,7 +527,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Divisi Outbound</h4>
+                <h4 class="text-shadow" style="color: white">Divisi Outbound</h4>
               </div>
             </div>
           </div>
@@ -507,273 +537,6 @@
     </div>
   </div>
   <!-- End Divisi Area -->
-
-  <!-- Start portfolio Area -->
-  <div id="portfolio" class="portfolio-area area-padding fix">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
-            <h2>Portofolio Kegiatan</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <!-- Start Portfolio -page -->
-        <div class="awesome-project-1 fix">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="awesome-menu ">
-              <ul class="project-menu">
-                <li>
-                  <a href="#" class="active" data-filter="*">All</a>
-                </li>
-                <li>
-                  <a href="#" data-filter=".outbound">Outbound</a>
-                </li>
-                <li>
-                  <a href="#" data-filter=".meeting">Meeting</a>
-                </li>
-                <li>
-                  <a href="#" data-filter=".carnaval">Carnaval</a>
-                </li>
-                <li>
-                  <a href="#" data-filter=".launching">Launching</a>
-                </li>
-                <li>
-                  <a href="#" data-filter=".gathering">Gathering</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="awesome-project-content">
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_1.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_1.JPG') ?>">
-                      <h4>Badan POM</h4>
-                      <span>???</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_2.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_2.JPG') ?>">
-                      <h4>BAPPEBTI</h4>
-                      <span>Lembang</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_3.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_3.JPG') ?>">
-                      <h4>BAPPEBTI</h4>
-                      <span>Rancamaya</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_4.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_4.JPG') ?>">
-                      <h4>KPAN</h4>
-                      <span>Bandung</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 outbound">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/outbound/outbound_5.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/outbound/outbound_5.JPG') ?>">
-                      <h4>BRI Veteran</h4>
-                      <span>Pahawang</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 carnaval">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/carnaval/carnaval_1.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/carnaval/carnaval_1.JPG') ?>">
-                      <h4>Fun Bike</h4>
-                      <span>Hotel Indonesia</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 carnaval">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/carnaval/carnaval_2.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/carnaval/carnaval_2.JPG') ?>">
-                      <h4>PHRI Run</h4>
-                      <span>Hotel Indonesia</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 gathering">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/gathering/gathering_1.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/gathering/gathering_1.JPG') ?>">
-                      <h4>PT Sangalaki Manta Paradise</h4>
-                      <span>Kalimantan Timur</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 gathering">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/gathering/gathering_2.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/gathering/gathering_2.JPG') ?>">
-                      <h4>BAPPEBTI</h4>
-                      <span>Cipanas</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 launching">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/launching/launching_1.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/launching/launching_1.JPG') ?>">
-                      <h4>Badan POM</h4>
-                      <span>???</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 launching">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/launching/launching_2.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/launching/launching_2.JPG') ?>">
-                      <h4>DIC Graphic</h4>
-                      <span>Launching Pabrik Karawang</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 meeting">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/meeting/meeting_1.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/meeting/meeting_1.JPG') ?>">
-                      <h4>DIC Graphic</h4>
-                      <span>National Sales Marketing</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-          <div class="col-md-3 col-sm-3 col-xs-12 meeting">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="<?php echo base_url('assets/img/portofolio/meeting/meeting_2.JPG') ?>" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('assets/img/portofolio/meeting/meeting_2.JPG') ?>">
-                      <h4>Badan POM</h4>
-                      <span>Forum Evaluasi Penilaian Obat dan Produk Biologi</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- single-awesome-project end -->
-        
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- awesome-portfolio end -->
   
   <!-- Start contact Area -->
   <div id="contact" class="contact-area">

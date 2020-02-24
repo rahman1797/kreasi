@@ -836,8 +836,7 @@ div#preloader {
 }
 
 .single-team-member {
-  border: 1px solid #ddd;
-  border-radius: 15px;
+  border: 1.5px solid #ddd;
 }
 
 .team-left-text h4 {
