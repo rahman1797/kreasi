@@ -34,9 +34,6 @@
               <div class="footer-head">
                 <h4>informasi</h4>
                 <div class="footer-contacts">
-                  <p><span>Tel:</span> +123 456 789</p>
-                  <p><span>Email:</span> contact@example.com</p>
-                  <p><span>Working Hours:</span> 9am-5pm</p>
                 </div>
               </div>
             </div>
@@ -51,7 +48,7 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="copyright text-center">
               <p>
-                &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
+                &copy; Copyright <strong></strong>. All Rights Reserved
               </p>
             </div>
             

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>eBusiness Bootstrap Template</title>
+  <title>Kreasi Alam Inspirasi</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -34,12 +34,12 @@
   <!-- Responsive Stylesheet File -->
   <link href="<?php echo base_url('assets/template/css/responsive.css') ?>" rel="stylesheet">
 
-  <style type="text/css">
-    .rounded_corner {
-      border-radius: 10px;
-    }
-  </style>
-
+  <!-- =======================================================
+    Theme Name: eBusiness
+    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
   <script src="<?php echo base_url('assets/template/lib/jquery/jquery.min.js') ?>"></script>
 
 </head>
@@ -68,7 +68,7 @@
                 <!-- Brand -->
                 <a class="navbar-brand page-scroll sticky-logo" href="index.html">
                   <!-- Uncomment below if you prefer to use an image logo -->
-                  <img style="height: 50px" src="<?php echo base_url('assets/img/kailogo.PNG') ?>" alt="KAI" title="kreasi alam kreasi">
+                  <img style="height: 50px" src="<?php echo base_url('assets/img/logo.PNG') ?>" alt="KAI" title="kreasi alam kreasi">
 				</a>
 				
               </div>
@@ -79,9 +79,9 @@
                     <a class="page-scroll" href="#home">Beranda</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="#about">Tentang</a>
+                    <a class="page-scroll" href="#tentang">Tentang</a>
                   </li>
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumentasi<span class="caret"></span></a>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href="<?php echo base_url('Dokumentasi?tahun=2011&page=1') ?>" style="padding: 5px">2011</a></li>
                       <li><a href="<?php echo base_url('Dokumentasi?tahun=2012&page=1') ?>" style="padding: 5px">2012</a></li>
@@ -93,6 +93,9 @@
                       <li><a href="<?php echo base_url('Dokumentasi?tahun=2018&page=1') ?>" style="padding: 5px">2018</a></li>
                       <li><a href="<?php echo base_url('Dokumentasi?tahun=2019&page=1') ?>" style="padding: 5px">2019</a></li>
                     </ul> 
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#faq">Client</a>
                   </li>
                   <li>
                     <a class="page-scroll" href="#contact">Contact</a>

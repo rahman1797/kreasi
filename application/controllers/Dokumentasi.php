@@ -12,7 +12,7 @@ class Dokumentasi extends CI_Controller {
 	{
 		$data['count_image'] = $this->M_foto->count_image();
 		$data['foto_dokumentasi'] = $this->M_foto->tampil_foto()->result();
-		$this->load->view('layout/header');
+		$this->load->view('layout/header_p');
 		$this->load->view('page/v_dokumentasi', $data);
 		$this->load->view('layout/footer');
 
