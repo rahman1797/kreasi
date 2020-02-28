@@ -9,6 +9,19 @@
                 <div class="footer-logo">
                   <h2>Kreasi Alam Inspirasi</h2>
                 </div>
+
+
+                <?php
+                $date = date('Y M d');
+
+                // $date = date_format(, $date);
+
+                echo $date;
+                 ?>
+
+
+
+
                 <div class="footer-icons">
                   <ul>
                     <li>
