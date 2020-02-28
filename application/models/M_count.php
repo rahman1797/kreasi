@@ -7,7 +7,6 @@ class M_count extends CI_Model
 		return $this->db->get_where($table,$where);
 	}
 
-
 	function input_tanggal($data) {
 		$this->db->insert('count_tbl', $data);
 	}

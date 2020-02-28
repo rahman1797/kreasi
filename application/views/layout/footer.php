@@ -12,14 +12,14 @@
 
 
                 <?php
-                $date = date('Y M d');
+                $get_date = date('Y-m-d');
+                $current_date = array('count_tanggal' => $get_date);
 
-                // $date = date_format(, $date);
+                $db = $this->M_count->cek_tanggal('count_tbl', $current_date)->result();
 
-                echo $date;
-                 ?>
-
-
+                echo $db['0']->count_jumlah;
+                
+                ?>
 
 
                 <div class="footer-icons">
